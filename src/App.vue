@@ -19,7 +19,7 @@ export default {
   methods: {
     start() {
       this.isPlaying = !this.isPlaying;
-      this.delay = 2000 + Math.random() * 5;
+      this.delay = 2000 + Math.random() * 5000;
     },
   },
 };
