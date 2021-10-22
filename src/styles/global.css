@@ -6,3 +6,9 @@
   color: #444;
   margin-top: 60px;
 }
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}
